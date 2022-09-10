@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+
+}
+.botao{
+  z-index: 40;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  background: rgb(24,188,156);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: left 0.4s ease;
+}
+.botao.click{
+  left: 260px;
+}
+.botao span{
+  color: white;
+  font-size: 28px;
+  line-height: 45px;
+}
+.botao.click span:before{
+  content: '\f00d';
+}
+.barra{
+  z-index: 40;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  left: -250px;
+  background: rgb(24,188,156);
+  transition: left 0.4s ease;
+}
+.barra.show{
+  left: 0px;
+}
+.barra .text{
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 65px;
+  text-align: center;
+  background: rgb(24,188,156);
+  letter-spacing: 1px;
+}
+nav ul{
+  background: rgb(24,188,156);
+  height: 100%;
+  width: 100%;
+  padding-left: 0 !important;
+  list-style: none;
+}
+nav ul li{
+  line-height: 60px;
+  border-top: 1px solid rgba(218, 218, 218, 0.349);
+}
+nav ul li:last-child{
+  border-bottom: 1px solid rgba(218, 218, 218, 0.349);
+}
+nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 65px;
+  padding-left: 20px;
+  display: inline-block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+nav ul li i{
+    
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 30px;
+    font-weight: 500;
+    display: inline-block;
+    width: 10%;
+    border-left: 3px solid transparent;
+  }
+.ativo a{
+  color: rgb(31, 31, 31);
+  background: rgb(28, 182, 151);
+  border-left-color: rgb(31, 31, 31);
+}
+nav ul li a:hover{
+  background: rgb(28, 182, 151);
+  color: rgb(31, 31, 31);
+}
+nav ul li a:hover i{
+    color: rgb(31, 31, 31);
+}
+.ativo a i{
+    color: rgb(31, 31, 31);
+}
+
+
+nav ul ul{
+  position: static;
+  display: none;
+}
+nav ul .feat-show.show{
+  display: block;
+}
+nav ul .serv-show.show1{
+  display: block;
+}
+nav ul ul li{
+  line-height: 42px;
+  border-top: none;
+}
+nav ul ul li a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding-left: 80px;
+}
+nav ul li.ativo ul li a{
+  color: #fff;
+  background: rgb(24,188,156);
+  border-left-color: transparent;
+}
+nav ul li.ativo ul li.ativo a{
+    color: rgb(31, 31, 31);
+    background: rgb(28, 182, 151);
+    border-left-color: rgb(31, 31, 31);
+}
+nav ul li.ativo ul li.ativo i{
+    color: rgb(31, 31, 31);
+}
+nav ul li ul li:hover a{
+  color: rgb(31, 31, 31)!important;
+  background: rgb(28, 182, 151);
+}
+
+nav ul li a span{
+  position: absolute;
+  top: 35%;
+  right: 18px;
+  font-size: 22px;
+  transition: transform 0.4s;
+}
+nav ul li a span.rotate{
+  transform: translateX(-50%) rotate(-180deg);
+}
