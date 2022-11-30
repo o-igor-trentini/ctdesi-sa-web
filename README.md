@@ -1,4 +1,4 @@
-# CT DESI SA Web
+# CT DESI SA Web - Gerenciador de Biblioteca
 
 > O projeto foi desenvolvido como prova final (Situação de Aprendizagem) no Curso Técnico em Desenvolvimento de Sistemas (CT DESI)
 do Senai/SC Concórdia.
