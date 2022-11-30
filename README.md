@@ -2,7 +2,7 @@
 
 > O projeto foi desenvolvido como prova final (Situação de Aprendizagem) no Curso Técnico em Desenvolvimento de Sistemas (CT DESI)
 do Senai/SC Concórdia.
-> Ele foi considerado o melhor projeto da turma e foi escolhido para ser implatando em algumas escolas da região.
+> <br/><br/> Ele foi considerado o melhor projeto da turma e foi escolhido para ser implatando em algumas escolas da região.
 
 Este projeto é um sistema gerenciador de biblioteca. Nele, é possível fazer login, cadastros de livros, usuários, alunos e 
 colaboradores, retirar e devolver livros de forma semi-automática através de leitura de QR-Code, cálculo de multa, entre outras
